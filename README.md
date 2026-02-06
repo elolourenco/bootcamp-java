@@ -44,7 +44,7 @@ A API expõe os seguintes endpoints em `http://localhost:8080/produtos`:
   "preco": 249.90
 }
 
-
+```
 🧪 Testes Unitários e de Integração
 O projeto conta com uma suíte de testes automatizados:
 
@@ -61,12 +61,12 @@ Clone o repositório.
 
 Execute o comando para compilar e baixar as dependências:
 
-O Console do H2 estará disponível em: http://localhost:8080/h2-console
+O Console do H2 estará disponível em: [http://localhost:8080/h2-console](http://localhost:8080/produtos)
 
 JDBC URL: jdbc:h2:mem:testdb
 
 User: sa
-
+Link Azure :https://bootcamp-produtos-ester-a5c7b4f8azekb9cn.brazilsouth-01.azurewebsites.net/
 Password: (em branco)
 
 
