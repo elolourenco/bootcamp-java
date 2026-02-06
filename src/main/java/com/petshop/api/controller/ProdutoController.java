@@ -16,10 +16,6 @@ public class ProdutoController {
 
     private final ProdutoService service;
 
-    public ProdutoController() {
-        service = null;
-    }
-
     @GetMapping
     public ResponseEntity<List<ProdutoResponseDTO>> listar() {
         return ResponseEntity.ok(service.listar());
